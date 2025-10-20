@@ -1,0 +1,125 @@
+gittyup:
+
+vim-config:
+look up some cool vimscript functions in other people's vim configs
+go through vimrc, find something I don't understand, and improve upon it or keep it the same but at least know what it means a little better now
+(sometime) read through the vim manual until I find something interesting enough to add to my vimrc
+
+DocumentationByTopic:
+add database chapter to documentation (miscellaneous -\u003e chapter 6, databases -\u003e chapter 5)
+change chapter 1 to \"Development Tools\" and move prometheus to chapter 5 (databases)
+add general SQL to documentation
+add PostgreSQL to documentation
+add chapter for general software engineering best practices (best practices -\u003e chapter 6, miscellaneous -\u003e chapter 7)
+add chapter for software engineering training (training -\u003e chapter 7, miscellaneous -\u003e chapter 8)
+
+visur:
+design a distinction between regular quantum movement view (NormalView?) and filesystem navigation (FilesystemView?)
+implement the distinction noted above (probably in ModelWasChangedVerticle?)
+make FileQuantum
+make DirectoryQuantum
+implement filesystems (big one) by letting files be read from and written to (make it basic at first)
+
+script-util:
+go through jutil and remove extra junk that I don't care about anymore
+go through stutil and remove any junk I don't care about anymore
+make a new morning-script for BD work and possibly for DivCity work as well
+
+neovim-config:
+transfer everything from vimrc to init.lua (if there's anything unique in there. Also, make sure I'm using macOS so I can actually test this)
+download telescope and play with it to see what it does exactly that makes neovim so much better than vim
+compare the neovim :terminal experience with vim's :!bash experience, and see if there is a noticeable difference between the two
+
+jimium:
+
+Statistics-Bash:
+add outliers.sh
+make a PostgreSQL database backend with a set of numbers to be used as data points for statistics-bash
+implement a way to pass elements from Postgres database to stats scripts
+
+ShazamEncryptions:
+look up cool things from online github projects also aiming to improve password encryption quality
+identify what the Password.hash() function does in password4j project and then implement a similar version of it in shazam, whether it's in bash or java
+do the same as ^ for addSalt() and addPepper()
+also look into how libsodium (written in c) implements Argon2 in order to understand Argon2 better
+
+Question_driven_development:
+make a project on Github called \"cail\", which stands for \"curl+ai\" and is pronounced \"kale\", whose purpose is to hack AI websites to use their api's for free from the command line (just as this is possible to do via web browser, therefore, it must be possible via curl)
+add a feature to qdd google mode which prints out suggested websites to visit in order to learn more about particular library, term, or question, based on \"cail\" project (presently described above) which fetches AI result
+brainstorm ideas of which mode would be used for the 'p' key (mostly just arbitrarily because every other key on the top row of the keyboard has a mode associated with it)
+
+Portfolio:
+idea: Put my projects in a separate link, and separate them by \"problem\" and \"solution,\" as was done with the first item on this portfolio site: https://www.onyedika.xyz/work (but do them for all projects on mine)
+make main.html load the full correct format on MSYS2 system as well
+plan a course (in README.md) for when I will make this website public (by paying for a domain name), identifying which domain name I would use and which website I would purchase it from (maybe make this part private somehow)
+
+Pocket_Server:
+find a way to use nc to access claude ai
+find a way to use nc to access chat gpt
+find a way to use nc to run HighestPoints project (currently it runs on localhost)
+
+InvestmentGame:
+
+Highest-Points:
+implement encapsulated js backend to remove boilerplate from states
+add michigan
+add minnesota
+add mississippi
+add missouri
+add montana
+
+HaskellMath:
+work on `hourly_to_monthly_income` in finance.hs
+add `quadratic_equation` to math.hs (separate from probability.hs)
+learn what a monad is and implement it in any aspect of HaskellMath
+
+Flip:
+make flip compatible with MSYS2 and recognize the system name based on uname -a
+add -c for context injection (inject context such as \"I am preparing for a job interview in software development and want to know which problems the company needs solved.\")
+add -d for depth of detail/complexity in response (such as brief, standard, deep, expert, superexpert)
+add -t for tone (such as formal, casual, humorous, persuasive, empathetic, informative, etc)
+
+Finance_Scripts:
+add pay_cut function to finance.sh which is the opposite of raise()
+make a pay_search function which searches for average salareis at different software companies and at different levels
+implement currency conversion (this one is for fun/proof of concept in my case rather than something I would necessarily use)
+
+Codewars:
+go 6 kyu 1/2
+go 6 kyu 2/2
+go 5 kyu
+js 6 kyu 1/2
+js 6 kyu 2/2
+js 5 kyu
+go|js 4 kyu
+lua 8 kyu 1/3
+lua 8 kyu 2/3
+lua 8 kyu 3/3
+lua 7 kyu 1/2
+lua 7 kyu 2/2
+lua 6 kyu 1/2
+lua 6 kyu 2/2
+lua 5 kyu
+
+Clipboard_Queue:
+fix character bug in MSYS2
+add flag to remove elements once used (temp_flag=t|f)
+add ucq alias to 'unsource clipboard_queue.sh'
+
+8_Protocol:
+read over all 8 points and fix any minor typos/grammar fixes or quick rephrasing
+shorten points 1 and 7
+lengthen points 2,3, and 6
+
+Knowledge-Tree:
+
+Frankenstein:
+
+temp_crawl_spicy:
+
+DataClassArithmetic:
+
+LanguageWordBuilder:
+
+training-crawl:
+
