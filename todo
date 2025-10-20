@@ -1,0 +1,3 @@
+add a README to describe gittyup (make sure to include the fact that it's meant to eventually be a generic cli tool to use curl from cli to get github stuff, aka, better than gh cli tool)
+remove the weird -\u003e text in all_todos which results from todo_list.sh
+maybe think about other curl superpowers I can do with gittyup
